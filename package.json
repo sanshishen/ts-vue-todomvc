@@ -1,0 +1,25 @@
+{
+  "name": "ts-vue-todomvc",
+  "version": "1.0.0",
+  "description": "todo mvc demo with vue and typescript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanshishen/ts-vue-todomvc.git"
+  },
+  "keywords": [
+    "todo",
+    "mvc",
+    "vue",
+    "typescript"
+  ],
+  "author": "sanshishen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sanshishen/ts-vue-todomvc/issues"
+  },
+  "homepage": "https://github.com/sanshishen/ts-vue-todomvc#readme"
+}
