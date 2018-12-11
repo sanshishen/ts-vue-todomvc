@@ -2,8 +2,10 @@
   "name": "ts-vue-todomvc",
   "version": "1.0.0",
   "description": "todo mvc demo with vue and typescript.",
-  "main": "index.js",
+  "private": true,
   "scripts": {
+    "dev": "webpack --config webpack.config.js --progress",
+    "start": "webpack-dev-server --open",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,5 +23,26 @@
   "bugs": {
     "url": "https://github.com/sanshishen/ts-vue-todomvc/issues"
   },
-  "homepage": "https://github.com/sanshishen/ts-vue-todomvc#readme"
+  "homepage": "https://github.com/sanshishen/ts-vue-todomvc#readme",
+  "devDependencies": {
+    "clean-webpack-plugin": "^0.1.19",
+    "css-loader": "^1.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "ts-loader": "^5.0.0",
+    "typescript": "^3.0.3",
+    "url-loader": "^1.1.2",
+    "vue-loader": "^15.4.1",
+    "vue-property-decorator": "^7.0.0",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.5.17",
+    "webpack": "^4.17.2",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.8"
+  },
+  "dependencies": {
+    "vue": "^2.5.17",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1",
+    "vuex-class": "^0.3.1"
+  }
 }
